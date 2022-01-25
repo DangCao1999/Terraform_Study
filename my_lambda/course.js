@@ -5,9 +5,16 @@ exports.handler = async (event) => {
     // TODO implement
     const response = {
         statusCode: 200,
-        body: "good",
+        body: event['path'] ,
     };
     return response;
 };
 
+function getAllCourse(){}
+
+function getCourseDetail(){}
+
+function getCourseDetail(){}
+
+function getCourseListTitle(){}
 
